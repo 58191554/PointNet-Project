@@ -1,7 +1,7 @@
 # PointNet-Project
 This is a group work project in UC Berkeley cs182. We are working on constructing [this paper: PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593)
 
-PointDataSet API说明文档
+### PointDataSet API说明文档
 类定义
 PointDataSet(root_dir)
 PointDataSet类是一个继承自torch.utils.data.Dataset的数据集类，用于加载包含点云数据的.off文件。
