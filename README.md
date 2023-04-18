@@ -20,7 +20,7 @@ dataloader = torch.utils.data.DataLoader(pre_sample_data_test, batch_size=batch_
 ![](https://github.com/58191554/PointNet-Project/edit/main/img/pic1.png)
 
 <div align="center">
-<img src="PointNet-Project/img/T-net_pipeline.drawio (1).png"></img>
+<img src="https://github.com/58191554/PointNet-Project/blob/main/img/T-net_pipeline.drawio%20(1).png"></img>
 </div>
 
 给定一个batch的点云信息，希望根据这个batch中所有点的信息计算出一个旋转矩阵来得到cononical 的点云。
