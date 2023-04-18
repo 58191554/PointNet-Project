@@ -11,9 +11,10 @@ batch_size = 32
 shuffle = True
 num_workers = 4
 
-dataloader = torch.util.DataLoader(pre_sample_data_train, batch_size=batch_size, shuffle=shuffle, num_workers=num_workers)
-dataloader = torch.util.DataLoader(pre_sample_data_test, batch_size=batch_size, shuffle=shuffle, num_workers=num_workers)
+dataloader = torch.utils.data.DataLoader(pre_sample_data_train, batch_size=batch_size, shuffle=shuffle, num_workers=num_workers)
+dataloader = torch.utils.data.DataLoader(pre_sample_data_test, batch_size=batch_size, shuffle=shuffle, num_workers=num_workers)
 ```
 #### pcshow()
 - 输入一个地址数据\*pointCloud.T
 - 输出点云图片
+![](https://github.com/58191554/PointNet-Project/edit/main/img/pic1.png)
