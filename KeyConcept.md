@@ -22,6 +22,11 @@
 
 ### How HW engages with the concept
 1. Adding Permutation Invariance
+
    Let students achieve forward pass of MLPs with shared weights and max-pooling across the points.
-3. Joint Alignment Network
-4. Concatenating data and global feature during segmentation
+2. Joint Alignment Network
+   Let students implement t-net module in the notebook to understand the architecture of t-net.
+   
+   In order to constrain the matrix learned by t-net to be rotaion matrix, a penalty term is added to the loss of the module and have a coeficient alpha. Let student tune the alpha value and observe the accuracy change due to the alpha. This can help student understand the loss deisgn and the intuition for the proposal of t-net in PointNet.
+   
+3. Concatenating data and global feature during segmentation
