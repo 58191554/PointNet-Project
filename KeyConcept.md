@@ -1,4 +1,4 @@
-## Key Concept of HW
+## Key Concept of PointNet
 ### Background
 1. Point Cloud Data
 
@@ -20,7 +20,7 @@
 
    Different from object classification which just needs global feature information, part segmentation needs both global and local feature. To do local and global information aggregation, we use a method similar to U- Net. PointNet aggregate local and global features simply by concentrating the global feature and local feature of each point in the hidden layer of MLP. With this modification, the network can predict each point category relying on global semantics and local geometry.
 
-### How HW engages with the concept
+### How we engages with the concept
 1. Adding Permutation Invariance
 
    Let students achieve forward pass of MLPs with shared weights and max-pooling across the points.
